@@ -28,10 +28,14 @@ func (t * T) Insert(item int)  (added bool)  {
 	return added
 }
 
+func (t *T) InOrderPrint()  {
+	inOrder(t.root)
+}
+
 func inOrder(root *node) {
 	if root !=nil {
 		inOrder(root.left)
-		fmt.Print(root.item)
+		fmt.Printf("%d ->", root.item)
 		inOrder(root.right)
 	}
 }
