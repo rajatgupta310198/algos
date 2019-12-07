@@ -1,7 +1,7 @@
 package positive_integer
 
 import "testing"
-
+// Test file
 func TestFindMinPositive(t *testing.T) {
 	arr := []int {2, 3, -7, 6, 8, 1, -10, 15}
 
