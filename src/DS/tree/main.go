@@ -1,7 +1,7 @@
 package main
 
 import (
-	"DS/tree/bst"
+	"../tree/bst"
 	"fmt"
 )
 
