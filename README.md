@@ -21,7 +21,9 @@ algos
             |__bst
             |    |__ bst.go    
             |    |__ bst_test.go
-            |__ main.go   
+            |__ main.go
+    
+ |_ main.go
 ```
 
 
