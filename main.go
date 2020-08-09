@@ -2,7 +2,10 @@ package main
 
 
 // import formatted I/O package
-import "fmt"
+import (
+	"algos/src/Algo/other/permutaions"
+	"fmt"
+)
 
 
 // We define a function add which takes 2 int variables as function parameters
@@ -47,4 +50,12 @@ func main()  {
 	// %v is placeholder for bool
 	fmt.Printf("Is %.2f is grater thant %.2f ? \nAnswer is %v\n", c, d, compareA(c, d))
 
+
+
+	// importing permutations package created under src/Algo/other
+	fmt.Println(permutaions.FactorialRecursive(10))
+
+	stringVar := "abcd"
+	permutationStrings := permutaions.HeapsPermutation(4, stringVar)
+	fmt.Println(permutationStrings)
 }
