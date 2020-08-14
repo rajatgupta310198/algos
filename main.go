@@ -1,12 +1,10 @@
 package main
 
-
 // import formatted I/O package
 import (
 	"algos/src/Algo/other/permutaions"
 	"fmt"
 )
-
 
 // We define a function add which takes 2 int variables as function parameters
 // Returns addition of the parameters with type int
@@ -19,10 +17,9 @@ func compareA(a float64, b float64) bool {
 	return a > b
 }
 
-
 // Any program in go start with main function inside "main' package
 // You can put main inside any other folders like src/main/main.go
-func main()  {
+func main() {
 	fmt.Printf("Hello World!\n")
 
 	// Notice type of variable declarations
@@ -31,13 +28,13 @@ func main()  {
 	// After declaring 2 is assigned
 	a = 2
 	// We declare and assigned variable 'b' with value 4
-	var b  = 4
+	var b = 4
 
 	// This is another way of defining variable where we  put := for assigning data to variable in LHS
 	// c is not declared we just assigned it with 4.2 which explicitly makes it a variable of float type with value 4.2
-	c:=4.2
+	c := 4.2
 
-	d:=2.42
+	d := 2.42
 
 	// C style I/o printing with %d representing placeholder for in variables specifically of type int
 	fmt.Printf("Addition of %d and %d is = %d\n", a, b, add(a, b))
@@ -50,12 +47,12 @@ func main()  {
 	// %v is placeholder for bool
 	fmt.Printf("Is %.2f is grater thant %.2f ? \nAnswer is %v\n", c, d, compareA(c, d))
 
-
-
 	// importing permutations package created under src/Algo/other
 	fmt.Println(permutaions.FactorialRecursive(10))
 
 	stringVar := "abcd"
 	permutationStrings := permutaions.HeapsPermutation(4, stringVar)
 	fmt.Println(permutationStrings)
+
+	fmt.Println("Sridha Saha")
 }
