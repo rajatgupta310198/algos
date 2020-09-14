@@ -2,8 +2,8 @@ package main
 
 // import formatted I/O package
 import (
-	"algos/src/Algo/other/permutaions"
-	"algos/src/Algo/search/graph"
+	"algos/src/Other/permutaions"
+	"algos/src/graph"
 	"fmt"
 )
 

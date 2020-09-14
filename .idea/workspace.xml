@@ -4,8 +4,20 @@
     <list default="true" id="93205fed-f9fa-4eb0-9098-18711f391527" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algo/search/graph/graph.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/graph/graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algo/search/graph/graph_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/other/permutaions/factorial_recursive.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/permutaions/factorial_recursive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/other/permutaions/heaps_permutation.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/permutaions/heaps_permutation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/other/permutaions/permutation_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/permutaions/permutation_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/other/positive-integer/fin_min_positive.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/positive-integer/fin_min_positive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/other/positive-integer/positive_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/positive-integer/positive_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/search/Binary/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binary/binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/search/Binary/binary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binary/binary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/search/Jump/jump_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jump/jump_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/search/Jump/jump_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jump/jump_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/search/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algo/search/graph/graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/graph_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DS/tree/bst/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/bst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DS/tree/bst/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/bst_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DS/tree/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +49,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Other" />
+      <recent name="$PROJECT_DIR$/src/Algo" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="go build algos/src/Other" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
