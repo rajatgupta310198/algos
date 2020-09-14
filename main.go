@@ -4,6 +4,7 @@ package main
 // import formatted I/O package
 import (
 	"algos/src/Algo/other/permutaions"
+	"algos/src/Algo/search/graph"
 	"fmt"
 )
 
@@ -21,7 +22,7 @@ func compareA(a float64, b float64) bool {
 
 
 // Any program in go start with main function inside "main' package
-// You can put main inside any other folders like src/main/main.go
+// You can put main inside any other folders like src/main/graph_test.go
 func main()  {
 	fmt.Printf("Hello World!\n")
 
@@ -58,4 +59,20 @@ func main()  {
 	stringVar := "abcd"
 	permutationStrings := permutaions.HeapsPermutation(4, stringVar)
 	fmt.Println(permutationStrings)
+
+
+	G := graph.NewGraph()
+
+	v0 := G.AddVertex("A")
+	v1 := G.AddVertex("B")
+	v2 := G.AddVertex("C")
+	v3 := G.AddVertex("D")
+	G.AddEdge(v0, v1)
+	G.AddEdge(v0, v2)
+	G.AddEdge(v1, v2)
+	G.AddEdge(v2, v0)
+	G.AddEdge(v2, v3)
+	G.AddEdge(v3, v3)
+	G.PrintGraph()
+	G.Dfs(v2)
 }
