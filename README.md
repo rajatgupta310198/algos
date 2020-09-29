@@ -12,11 +12,10 @@ I use mac, I set it up inside my `$HOME/go` which is my `$GOPATH`.
 ```sh
 .
 algos
-|__src
-    |__Binary
+|---|__binary
     |__graph
-    |__Jump
-    |__Other
+    |__jump
+    |__other
     |__tree
  |_ main.go
 ```
