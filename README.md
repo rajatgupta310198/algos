@@ -11,18 +11,11 @@ I use mac, I set it up inside my `$HOME/go` which is my `$GOPATH`.
 .
 algos
 |__src
-    |__Algo
-    |   |__search
-    |       |__Binary
-    |            |__ binary_search.go
-    |            |__ binary_test.go
-    |__ DS
-        |__tree
-            |__bst
-            |    |__ bst.go    
-            |    |__ bst_test.go
-            |__ main.go
-    
+    |__Binary
+    |__graph
+    |__Jump
+    |__Other
+    |__tree
  |_ main.go
 ```
 

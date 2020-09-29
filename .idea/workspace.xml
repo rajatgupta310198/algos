@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93205fed-f9fa-4eb0-9098-18711f391527" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/graph/bfs.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/other/permutaions/factorial_recursive.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/permutaions/factorial_recursive.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/other/permutaions/heaps_permutation.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/permutaions/heaps_permutation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/other/permutaions/permutation_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/permutaions/permutation_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/other/positive-integer/fin_min_positive.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/positive-integer/fin_min_positive.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/other/positive-integer/positive_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other/positive-integer/positive_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/Binary/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binary/binary_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/Binary/binary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binary/binary_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/Jump/jump_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jump/jump_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/Jump/jump_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jump/jump_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/graph.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algo/search/graph/graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/graph_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS/tree/bst/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/bst.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS/tree/bst/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/bst_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS/tree/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/bst/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/bst_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1fRvO8tUNc5FqOYQKHLLPIL49jG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,8 +40,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,6 +81,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#GOROOT" timestamp="1596193771206">
@@ -129,13 +127,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596825420300" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1596867389845">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1601390927016">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596867389845" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600107148632">
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601390927016" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601390966274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600107148632" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601390966274" />
   </component>
 </project>

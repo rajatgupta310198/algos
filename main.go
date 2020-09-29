@@ -64,11 +64,11 @@ func main() {
 	G.AddEdge(v0, v1)
 	G.AddEdge(v0, v2)
 	G.AddEdge(v1, v2)
+
 	G.AddEdge(v2, v0)
 	G.AddEdge(v2, v3)
 	G.AddEdge(v3, v3)
 	G.PrintGraph()
 	G.Dfs(v2)
-	fmt.Println("Sridha Saha")
-	fmt.Println("on branch sridha for adding career TV")
+
 }
