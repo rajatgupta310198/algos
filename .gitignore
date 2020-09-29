@@ -1,3 +1,4 @@
 main
 .idea
-src/local
+local
+.local
