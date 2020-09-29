@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93205fed-f9fa-4eb0-9098-18711f391527" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/graph/bfs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/queue_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/bst/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/bst_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/graph_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,9 +130,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601390927016" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601390966274">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601395843646">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601390966274" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601395843646" />
   </component>
 </project>

@@ -18,7 +18,6 @@ func TestNewGraph(t *testing.T) {
 	G.AddEdge(v2, v0)
 	G.AddEdge(v2, v3)
 	G.AddEdge(v3, v3)
-	G.PrintGraph()
 	G.Dfs(v2)
 
 }
