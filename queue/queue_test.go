@@ -6,43 +6,30 @@ import (
 
 func TestQueue_Add(t *testing.T) {
 	myTestQueue := NewQueue()
-	_, err := myTestQueue.Add(1)
+	myTestQueue.Add(1)
 
-	_, err = myTestQueue.Add(3)
+	 myTestQueue.Add(3)
+	myTestQueue.Add(2)
+
+	myTestQueue.Add(3)
+	item, err := myTestQueue.Pop()
 	if err != nil {
 		t.Error(err)
 	}
-
-	_, err = myTestQueue.Add(2)
-	if err != nil {
-		t.Error(err)
-	}
-
-	_, err = myTestQueue.Add(3)
-	if err != nil {
-		t.Error(err)
+	if item != 1 {
+		t.Error("Wrong implementation")
 	}
 
 }
 
 func TestQueue_Pop(t *testing.T) {
 	myTestQueue := NewQueue()
-	_, err := myTestQueue.Add(1)
+	myTestQueue.Add(1)
 
-	_, err = myTestQueue.Add(3)
-	if err != nil {
-		t.Error(err)
-	}
+	myTestQueue.Add(3)
+	myTestQueue.Add(2)
+	myTestQueue.Add(3)
 
-	_, err = myTestQueue.Add(2)
-	if err != nil {
-		t.Error(err)
-	}
-
-	_, err = myTestQueue.Add(3)
-	if err != nil {
-		t.Error(err)
-	}
 	item, err := myTestQueue.Pop()
 	if err != nil {
 		t.Error(err)
@@ -60,32 +47,17 @@ func TestQueue_Pop(t *testing.T) {
 
 func TestQueue_Len(t *testing.T) {
 	myTestQueue := NewQueue()
-	_, err := myTestQueue.Add(1)
+	myTestQueue.Add(1)
 
-	_, err = myTestQueue.Add(2)
-	if err != nil {
-		t.Error(err)
-	}
+	myTestQueue.Add(2)
+	myTestQueue.Add(3)
+	myTestQueue.Add(4)
 
-	_, err = myTestQueue.Add(3)
-	if err != nil {
-		t.Error(err)
-	}
+	myTestQueue.Add(5)
 
-	_, err = myTestQueue.Add(4)
-	if err != nil {
-		t.Error(err)
-	}
 
-	_, err = myTestQueue.Add(5)
-	if err != nil {
-		t.Error(err)
-	}
+	 myTestQueue.Add(6)
 
-	_, err = myTestQueue.Add(6)
-	if err != nil {
-		t.Error(err)
-	}
 
 	l := myTestQueue.Len()
 	if l != 6 {

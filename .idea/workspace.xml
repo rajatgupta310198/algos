@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93205fed-f9fa-4eb0-9098-18711f391527" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/binary/binary_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/binary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/binary/binary_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jump/jump_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/jump/jump_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jump/jump_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jump/jump_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/intro_interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/intro_interfaces.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/permutaions/factorial_recursive.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/permutaions/factorial_recursive.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/permutaions/heaps_permutation.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/permutaions/heaps_permutation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/permutaions/permutation_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/permutaions/permutation_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/positive-integer/fin_min_positive.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/positive-integer/fin_min_positive.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/positive-integer/positive_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/positive-integer/positive_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/graph/bfs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/dfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/graph/dfs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/graph/graph.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/graph/graph_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/queue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/bst/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/bst/bst.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/bst/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/bst/bst_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/queue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

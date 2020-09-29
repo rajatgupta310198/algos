@@ -13,11 +13,10 @@ type Queue struct {
 }
 
 // Add will add item to the Queue
-func (q *Queue) Add(item interface{}) (bool, error) {
+func (q *Queue) Add(item interface{}) {
 
 	q.items = append(q.items, item)
 	q.len = q.len + 1
-	return true, nil
 }
 
 // Pop will pop out first element in queue
