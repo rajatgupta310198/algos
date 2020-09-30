@@ -6,7 +6,7 @@ GOTEST=$(GOCMD) test
 all: test build
 
 test:
-	$(GOTEST) ./... -v
+	sh scripts/run_test.sh
 
 clean:
 	$(GOCLEAN) -v
