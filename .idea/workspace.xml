@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93205fed-f9fa-4eb0-9098-18711f391527" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/queue/queue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,9 +128,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601390927016" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601395843646">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601472303381">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601395843646" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601472303381" />
   </component>
 </project>

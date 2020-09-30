@@ -3,6 +3,7 @@ package queue
 import (
 	"errors"
 	"fmt"
+	"sync"
 )
 
 type queueItems []interface{}
@@ -10,17 +11,22 @@ type queueItems []interface{}
 type Queue struct {
 	items queueItems
 	len int
+	mutex sync.Mutex
 }
 
 // Add will add item to the Queue
 func (q *Queue) Add(item interface{}) {
 
+	q.mutex.Lock()
+	defer q.mutex.Unlock()
 	q.items = append(q.items, item)
 	q.len = q.len + 1
 }
 
 // Pop will pop out first element in queue
 func (q *Queue) Pop() (interface{}, error)  {
+	q.mutex.Lock()
+	defer q.mutex.Unlock()
 	var item interface{}
 	if q.len <=0 {
 		return nil, errors.New("no elements in queue")
@@ -32,11 +38,15 @@ func (q *Queue) Pop() (interface{}, error)  {
 
 // Len will give length of Queue
 func (q *Queue) Len() int {
+	q.mutex.Lock()
+	defer q.mutex.Unlock()
 	return len(q.items)
 }
 
 // IsEmpty will return bool whether Queue is empty or not
 func (q *Queue) IsEmpty() bool {
+	q.mutex.Lock()
+	defer q.mutex.Unlock()
 	return len(q.items) == 0
 }
 

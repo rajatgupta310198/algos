@@ -8,7 +8,7 @@ func TestQueue_Add(t *testing.T) {
 	myTestQueue := NewQueue()
 	myTestQueue.Add(1)
 
-	 myTestQueue.Add(3)
+	myTestQueue.Add(3)
 	myTestQueue.Add(2)
 
 	myTestQueue.Add(3)
