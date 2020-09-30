@@ -1,6 +1,7 @@
 package graph
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -19,5 +20,7 @@ func TestNewGraph(t *testing.T) {
 	G.AddEdge(v2, v3)
 	G.AddEdge(v3, v3)
 	G.Dfs(v2)
+	fmt.Println("now bfs")
+	G.BfsTraverse()
 
 }
