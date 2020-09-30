@@ -58,6 +58,14 @@ func (q *Queue) Print()  {
 	}
 }
 
+// Free will remove all elements in Queue
+func (q *Queue) Free()  {
+	q.mutex.Lock()
+	defer q.mutex.Unlock()
+	q.len = 0
+	q.items = nil
+}
+
 // NewQueue is constructor to initialize our Queue
 func NewQueue() *Queue {
 	return &Queue{len:0}

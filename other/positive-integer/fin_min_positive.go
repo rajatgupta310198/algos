@@ -5,7 +5,7 @@ Source: https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-
 */
 func FindMinPositive(arr []int) int {
 	defaultSmallest :=1
-	mySet := map[int]bool{} // for set implementation in go
+	mySet := map[int]bool{} // for dict implementation in go
 	n := len(arr)
 	for i:= 0; i < n; i++ {
 		if defaultSmallest < arr[i] {
