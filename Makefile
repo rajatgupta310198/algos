@@ -3,11 +3,13 @@ GOBUILD=$(GOCMD) build
 GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test
 
-all: test clean
+all: lint test clean
 
 test:
 	sh scripts/run_test.sh
 
+lint:
+	go fmt ./...
 clean:
 	$(GOCLEAN) -v
 
