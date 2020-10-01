@@ -1,8 +1,8 @@
-package jump_search
+package jumpsearch
 
 import "math"
 
-func jump_search(element int, arr [] int) int  {
+func jumpSearch(element int, arr [] int) int  {
 	 n := len(arr)
 	 step := math.Sqrt(float64(n))
 	 prev :=0

@@ -1,4 +1,4 @@
-package binary_search
+package binarysearch
 
 func binarySearch( element int, arr []int) int  {
 

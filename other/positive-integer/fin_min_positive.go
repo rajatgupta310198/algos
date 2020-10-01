@@ -1,4 +1,4 @@
-package positive_integer
+package positiveinteger
 
 /*
 Source: https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array-set-3/

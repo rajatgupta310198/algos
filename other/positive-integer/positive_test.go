@@ -1,4 +1,4 @@
-package positive_integer
+package positiveinteger
 
 import "testing"
 // Test file

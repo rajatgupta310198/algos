@@ -5,11 +5,13 @@ import (
 	"sync"
 )
 
+// Dict struct for golang
 type Dict struct {
 	items map[interface{}]interface{}
 	mutex sync.Mutex
 }
 
+// Add will add items to dict
 func (d *Dict) Add(key, value interface{}) error {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
@@ -21,6 +23,7 @@ func (d *Dict) Add(key, value interface{}) error {
 	return nil
 }
 
+// Get will obtain value of given key
 func (d *Dict) Get(key interface{}) (interface{}, error)  {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
@@ -31,6 +34,7 @@ func (d *Dict) Get(key interface{}) (interface{}, error)  {
 	return item, nil
 }
 
+// GetAndRemove will get the item corresponding to key and removes it from dict
 func (d *Dict) GetAndRemove(key interface{}) (interface{}, error)  {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
@@ -42,6 +46,7 @@ func (d *Dict) GetAndRemove(key interface{}) (interface{}, error)  {
 	return item, nil
 }
 
+// Remove will remove item from dict
 func (d *Dict) Remove(key interface{}) error {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
@@ -53,6 +58,7 @@ func (d *Dict) Remove(key interface{}) error {
 	return nil
 }
 
+// Iter will create iterator over values in dict
 func (d *Dict) Iter() chan interface{} {
 	ch := make(chan interface{})
 	go func() {
@@ -64,6 +70,7 @@ func (d *Dict) Iter() chan interface{} {
 	return ch
 }
 
+// Update specific value of given key
 func (d *Dict) Update(key, value interface{}) error {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
@@ -75,6 +82,7 @@ func (d *Dict) Update(key, value interface{}) error {
 	return nil
 }
 
+// NewDict will create a dict pointer
 func NewDict() *Dict {
 	return &Dict{
 		items: make(map[interface{}]interface{}),
