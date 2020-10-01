@@ -1,6 +1,7 @@
 # algos - Getting started with Go
 
 [![Build Status](https://travis-ci.org/rajatgupta310198/algos.svg?branch=master)](https://travis-ci.org/rajatgupta310198/algos)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rajatgupta310198/algos)](https://goreportcard.com/report/github.com/rajatgupta310198/algos)
 
 I created this repository just to learn go. One of the best way to learn a new language is to implement basic Data structure & Algorithms. This gives
 basic idea of the language.
