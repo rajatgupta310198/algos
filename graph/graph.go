@@ -1,6 +1,5 @@
 package graph
 
-
 import (
 	"fmt"
 )
@@ -36,6 +35,7 @@ func (g *Graph) AddEdge(srcVertex, dstVertex *Vertex) *Vertex {
 	srcVertex.AdjList = append(srcVertex.AdjList, dstVertex)
 	return srcVertex
 }
+
 // PrintGraph prints the create graph G
 func (g *Graph) PrintGraph() {
 	fmt.Printf("Number of vertices %d\n", g.VertexCount)

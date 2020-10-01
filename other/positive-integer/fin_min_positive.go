@@ -4,10 +4,10 @@ package positiveinteger
 Source: https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array-set-3/
 */
 func FindMinPositive(arr []int) int {
-	defaultSmallest :=1
+	defaultSmallest := 1
 	mySet := map[int]bool{} // for dict implementation in go
 	n := len(arr)
-	for i:= 0; i < n; i++ {
+	for i := 0; i < n; i++ {
 		if defaultSmallest < arr[i] {
 			mySet[arr[i]] = true
 		} else if defaultSmallest == arr[i] {
@@ -22,6 +22,5 @@ func FindMinPositive(arr []int) int {
 			}
 		}
 	}
-	return  defaultSmallest
+	return defaultSmallest
 }
-

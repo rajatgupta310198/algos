@@ -18,7 +18,7 @@ func TestDict_Add(t *testing.T) {
 	}
 	var wg sync.WaitGroup
 
-	for i:=0; i<10; i++ {
+	for i := 0; i < 10; i++ {
 		wg.Add(1)
 		go func(i int) {
 			err := myDict.Add(i, "s")
@@ -30,6 +30,5 @@ func TestDict_Add(t *testing.T) {
 
 	}
 	wg.Wait()
-
 
 }

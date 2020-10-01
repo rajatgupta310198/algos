@@ -9,7 +9,7 @@ import (
 func (g *Graph) BfsTraverse() {
 	myGraphQueue := queue.NewQueue()
 	visitedNode := make(map[string]bool)
-	for i:= range g.Vertices {
+	for i := range g.Vertices {
 		visitedNode[g.Vertices[i].Label] = false
 	}
 	myGraphQueue.Add(g.Vertices[0])
@@ -19,10 +19,10 @@ func (g *Graph) BfsTraverse() {
 		assertedNode, ok := node.(*Vertex)
 		fmt.Println(assertedNode.Label)
 		visitedNode[assertedNode.Label] = true
-		if err != nil || ok == false{
+		if err != nil || ok == false {
 			break
 		}
-		for _, v:= range assertedNode.AdjList {
+		for _, v := range assertedNode.AdjList {
 			if visitedNode[v.Label] != true {
 				myGraphQueue.Add(v)
 			}

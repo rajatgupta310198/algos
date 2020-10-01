@@ -24,7 +24,7 @@ func (d *Dict) Add(key, value interface{}) error {
 }
 
 // Get will obtain value of given key
-func (d *Dict) Get(key interface{}) (interface{}, error)  {
+func (d *Dict) Get(key interface{}) (interface{}, error) {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
 	item, ok := d.items[key]
@@ -35,7 +35,7 @@ func (d *Dict) Get(key interface{}) (interface{}, error)  {
 }
 
 // GetAndRemove will get the item corresponding to key and removes it from dict
-func (d *Dict) GetAndRemove(key interface{}) (interface{}, error)  {
+func (d *Dict) GetAndRemove(key interface{}) (interface{}, error) {
 	d.mutex.Lock()
 	defer d.mutex.Unlock()
 	item, ok := d.items[key]
@@ -63,7 +63,7 @@ func (d *Dict) Iter() chan interface{} {
 	ch := make(chan interface{})
 	go func() {
 		defer close(ch)
-		for _, i:= range d.items {
+		for _, i := range d.items {
 			ch <- i
 		}
 	}()

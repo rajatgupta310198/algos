@@ -1,15 +1,13 @@
 package binarysearch
 
-func binarySearch( element int, arr []int) int  {
-
-
+func binarySearch(element int, arr []int) int {
 
 	low := 0
 	high := len(arr)
 	index := -1
 	mid := (low + high) / 2
 
-	for ; low <= high;  {
+	for low <= high {
 		i := mid
 		if element == arr[i] {
 			index = i

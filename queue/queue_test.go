@@ -55,9 +55,7 @@ func TestQueue_Len(t *testing.T) {
 
 	myTestQueue.Add(5)
 
-
-	 myTestQueue.Add(6)
-
+	myTestQueue.Add(6)
 
 	l := myTestQueue.Len()
 	if l != 6 {

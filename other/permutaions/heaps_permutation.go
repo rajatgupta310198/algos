@@ -1,6 +1,6 @@
 package permutaions
 
-func isEven(n int) bool  {
+func isEven(n int) bool {
 	return n%2 == 0
 }
 
@@ -29,10 +29,8 @@ func heapsPermutation(n int, arr string, permutations []string) []string {
 
 }
 
-
-func HeapsPermutation(n int, arr string)  []string {
+func HeapsPermutation(n int, arr string) []string {
 	var permutations []string
 	permutations = heapsPermutation(n, arr, permutations)
-	return  permutations
+	return permutations
 }
-

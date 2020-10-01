@@ -10,7 +10,7 @@ type queueItems []interface{}
 
 type Queue struct {
 	items queueItems
-	len int
+	len   int
 	mutex sync.Mutex
 }
 
@@ -24,17 +24,16 @@ func (q *Queue) Add(item interface{}) {
 }
 
 // Pop will pop out first element in queue
-func (q *Queue) Pop() (interface{}, error)  {
+func (q *Queue) Pop() (interface{}, error) {
 	q.mutex.Lock()
 	defer q.mutex.Unlock()
 	var item interface{}
-	if q.len <=0 {
+	if q.len <= 0 {
 		return nil, errors.New("no elements in queue")
 	}
 	item, q.items = q.items[0], q.items[1:]
 	return item, nil
 }
-
 
 // Len will give length of Queue
 func (q *Queue) Len() int {
@@ -50,16 +49,15 @@ func (q *Queue) IsEmpty() bool {
 	return len(q.items) == 0
 }
 
-
 // Print will simply log items present in Queue
-func (q *Queue) Print()  {
+func (q *Queue) Print() {
 	for item := range q.items {
 		fmt.Println(q.items[item])
 	}
 }
 
 // Free will remove all elements in Queue
-func (q *Queue) Free()  {
+func (q *Queue) Free() {
 	q.mutex.Lock()
 	defer q.mutex.Unlock()
 	q.len = 0
@@ -68,5 +66,5 @@ func (q *Queue) Free()  {
 
 // NewQueue is constructor to initialize our Queue
 func NewQueue() *Queue {
-	return &Queue{len:0}
+	return &Queue{len: 0}
 }

@@ -2,7 +2,7 @@ package graph
 
 import (
 	"fmt"
-	)
+)
 
 // Dfs performs Depth Fist Search
 func (g *Graph) Dfs(vertex *Vertex) {
