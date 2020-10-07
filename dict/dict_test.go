@@ -108,11 +108,11 @@ func TestDict_GetAndRemove(t *testing.T) {
 func TestDict_Iter(t *testing.T) {
 	myDict := NewDict()
 	var wg sync.WaitGroup
-	for i:=0; i < 100; i++ {
+	for i := 0; i < 100; i++ {
 		wg.Add(1)
 		go func(i int) {
 			err := myDict.Add(i, i)
-			if err !=nil {
+			if err != nil {
 				t.Error(err)
 			}
 			wg.Done()
@@ -120,11 +120,10 @@ func TestDict_Iter(t *testing.T) {
 	}
 	wg.Wait()
 
-	for item:= range myDict.Iter() {
+	for item := range myDict.Iter() {
 		if item != myDict.items[item] {
 			t.Error("Mismatch")
 		}
 	}
 
 }
-
