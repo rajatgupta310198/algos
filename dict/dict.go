@@ -70,6 +70,18 @@ func (d *Dict) Iter() chan interface{} {
 	return ch
 }
 
+// IterKeys will create iterator over keys in dict
+func (d *Dict) IterKeys() chan interface{} {
+	ch := make(chan interface{})
+	go func() {
+		defer close(ch)
+		for key, _ := range d.items {
+			ch <- key
+		}
+	}()
+	return ch
+}
+
 // Update specific value of given key
 func (d *Dict) Update(key, value interface{}) error {
 	d.mutex.Lock()

@@ -62,3 +62,25 @@ func TestQueue_Len(t *testing.T) {
 		t.Error("Length not equal")
 	}
 }
+
+func BenchmarkQueue_Add(b *testing.B) {
+	myTestQueue := NewQueue()
+	for i := 0; i < b.N; i++ {
+		myTestQueue.Add(i)
+	}
+}
+
+func BenchmarkQueue_Pop(b *testing.B) {
+	myTestQueue := NewQueue()
+	for i := 0; i < b.N; i++ {
+		myTestQueue.Add(i)
+	}
+
+	for i := 0; i < myTestQueue.Len(); i++ {
+		_, e := myTestQueue.Pop()
+		if e != nil {
+			b.Error(e)
+		}
+	}
+
+}
